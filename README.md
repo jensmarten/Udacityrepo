@@ -38,7 +38,8 @@ Need on tavaliselt seatud erinevatele avalikele teenustele ja valitsustele.
 
 Püstitatud on ka probleem, milleks on see, et maailmas pole piisavalt IP aadresse olemas.
 See on lahendatud süsteemiga (NAT) mis võtab kokku kõik ühe ruuteri ühendused, vähendades kasutust.
-Mis võimaldab ühe IP aadressi all, luua terve privaatvõrgu.
+Selline süsteem võimaldab ühe IP aadressi alla koondada terve privaatvõrgu,
+hoides kokku väga palju IP aadressite kasutust.
 
 ```  
 ```  
@@ -49,7 +50,9 @@ Käsklusele peab tavaliselt lisama ka filtri/täpsustuse, et näha endale vajali
 
 Andmete saatmisel võib esineda ka "Timeout". Timeout on saatmise protsessi katkestus koos erroriga.
 Timeout tekkib siis kui kumbki pool liiga kaua võrgus ei vasta. Põhjuseid võib selleks olla mitu.
-Näiteks a. Teist valitud hosti pole olemas b. Katkestus võrgus kummalgil poolel või interneti teenuse pakkuja poolne viga
+Näiteks
+a. Teist valitud hosti pole olemas 
+b. Katkestus võrgus kummalgil poolel.
 
 ```  
 ```  
